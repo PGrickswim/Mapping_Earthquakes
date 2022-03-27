@@ -33,10 +33,10 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Accessing the Toronto airline routes GeoJSON URL.
-let torontoData = "https://raw.githubusercontent.com/<GitHub_name>/Mapping_Earthquakes/main/torontoRoutes.json";
+let torontoData = "https://github.com/PGrickswim/Mapping_Earthquakes/blob/Mapping_GeoJSON_Linestrings/Simple_Map/torontoRoutes.json";
 
-// Accessing the airport GeoJSON URL
-let airportData = "https://raw.githubusercontent.com/PGrickswim/Mapping_Earthquakes/main/Simple_Map/majorAirports.json";
+// // Accessing the airport GeoJSON URL
+// let airportData = "https://raw.githubusercontent.com/PGrickswim/Mapping_Earthquakes/main/Simple_Map/majorAirports.json";
 
 
 
